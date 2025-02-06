@@ -30,9 +30,9 @@ This folder contains a subset of the Twibot-22 dataset, sampled to include 1,000
 |                   | verified           | Verification status |
 |                   | withheld           | Withheld regions (if any) |
 | edge_sample.csv   | source_id          | Source user ID |
-|                   | relation           | Type of relationship (e.g., follows, mentions) |
+|                   | relation           | Type of relationship (e.g., follow, retweet, quote, post, like) |
 |                   | target_id          | Target user ID |
 | label_sample.csv  | id                 | User ID (matching user_sample.json) |
-|                   | label              | 0 = human, 1 = bot |
+|                   | label              | human, bot |
 
 This dataset serves as a basis for evaluating Twitter bot detection models. 
