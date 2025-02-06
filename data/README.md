@@ -1,9 +1,11 @@
 # Twibot-22 Sample Dataset
 
-This folder contains a subset of the Twibot-22 dataset, sampled to include 1,000 users due to the original dataset's large size. Twibot-22 is a benchmark dataset for graph-based Twitter bot detection, originally introduced by Feng et al. (2022). The full dataset and details can be found in the paper:
+This folder contains a subset of the **Twibot-22** dataset, which is a large-scale benchmark for Twitter bot detection. The original dataset, introduced by **Feng et al. (2022)**, provides a comprehensive collection of Twitter user profiles, social connections, and bot/human annotations to facilitate research on bot detection using graph-based and machine learning approaches.
+
+Due to the large size of Twibot-22, this sample includes **1,000 users**, preserving key user attributes, social relationships, and labels. The dataset aims to help researchers experiment with bot detection models without requiring extensive computing resources. The full dataset and its details can be found in the paper:
 
 > Feng, Shangbin, Zhaoxuan Tan, Herun Wan, Ningnan Wang, Zilong Chen, Binchi Zhang, Qinghua Zheng et al.  
-> "Twibot-22: Towards graph-based twitter bot detection."  
+> "Twibot-22: Towards graph-based Twitter bot detection."  
 > *Advances in Neural Information Processing Systems*, 35 (2022): 35254-35269.
 
 ### Files
