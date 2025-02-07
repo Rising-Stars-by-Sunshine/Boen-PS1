@@ -64,12 +64,6 @@ env\Scripts\activate
 Run the following command to install required Python libraries:
 
 ```bash
-pip install -r requirements.txt
-```
-
-If `requirements.txt` is not available, manually install:
-
-```bash
 pip install pandas==1.2.4 matplotlib==3.4.3 networkx==2.5 numpy==1.19.2
 ```
 
