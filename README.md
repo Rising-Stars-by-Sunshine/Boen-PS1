@@ -32,10 +32,48 @@ Due to the large size of Twibot-22, this project includes a **sample of 1,000 us
   - `networkx==2.5`
   - `numpy==1.19.2`
 
-## Setup Instructions
+# ⚙️ Setup Instructions
+
+## 1️⃣ Local Setup
 
 ### 1. Clone the Repository
 Open a terminal and run:
+
 ```bash
 git clone https://github.com/Rising-Stars-by-Sunshine/Boen-PS1.git
 cd Boen-PS1
+```
+
+### 2. Create a Virtual Environment (Recommended)
+It is recommended to use a virtual environment to manage dependencies.
+
+#### macOS/Linux:
+```bash
+python3 -m venv env
+source env/bin/activate
+```
+
+#### Windows (Command Prompt):
+```bash
+python -m venv env
+env\Scripts\activate
+```
+
+### 3. Install Dependencies
+Run the following command to install required Python libraries:
+
+```bash
+pip install -r requirements.txt
+```
+
+If `requirements.txt` is not available, manually install:
+
+```bash
+pip install pandas==1.2.4 matplotlib==3.4.3 networkx==2.5 numpy==1.19.2
+```
+
+### 4. Verify Installation
+Ensure all libraries are correctly installed by running:
+
+```bash
+python -c "import pandas, matplotlib, networkx, numpy; print('Setup successful!')"
