@@ -105,7 +105,7 @@ git clone https://github.com/Rising-Stars-by-Sunshine/Boen-PS1.git
 Install the required dependencies:
 
 ```bash
-!pip install -r requirements.txt
+!pip install pandas==1.2.4 matplotlib==3.4.3 networkx==2.5 numpy==1.19.2
 ```
 
 #### 4. Run Jupyter Notebook
