@@ -42,6 +42,7 @@ Open a terminal and run:
 ```bash
 git clone https://github.com/Rising-Stars-by-Sunshine/Boen-PS1.git
 cd Boen-PS1
+cd code
 ```
 
 ### 2. Create a Virtual Environment (Recommended)
@@ -77,3 +78,11 @@ Ensure all libraries are correctly installed by running:
 
 ```bash
 python -c "import pandas, matplotlib, networkx, numpy; print('Setup successful!')"
+```
+
+### 5. Run EDA Notebook
+Navigate to the `code` directory and run the `EDA.ipynb` Jupyter Notebook:
+
+```bash
+jupyter notebook EDA.ipynb
+```
