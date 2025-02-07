@@ -76,7 +76,3 @@ python -c "import pandas, matplotlib, networkx, numpy; print('Setup successful!'
 
 ### 5. Run EDA Notebook
 Navigate to the `code` directory and run the `EDA.ipynb` Jupyter Notebook:
-
-```bash
-jupyter notebook EDA.ipynb
-```
