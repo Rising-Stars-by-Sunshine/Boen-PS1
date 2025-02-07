@@ -76,3 +76,47 @@ python -c "import pandas, matplotlib, networkx, numpy; print('Setup successful!'
 
 ### 5. Run EDA Notebook
 Navigate to the `code` directory and run the `EDA.ipynb` Jupyter Notebook.
+
+
+## 2️⃣ Cloud Setup
+
+For users who want to run the project on cloud platforms like Google Colab or AWS, follow these steps:
+
+### 1. Google Colab Setup
+
+#### 1. Open Colab and Mount Google Drive
+Open [Google Colab](https://colab.research.google.com/) and run the following command to mount your Google Drive:
+
+```python
+from google.colab import drive
+drive.mount('/content/drive')
+```
+
+#### 2. Clone the Repository
+Navigate to a suitable directory in your Google Drive and clone the repository:
+
+```bash
+%cd /content/drive/MyDrive/
+git clone https://github.com/Rising-Stars-by-Sunshine/Boen-PS1.git
+%cd Boen-PS1/code
+```
+
+#### 3. Install Dependencies
+Install the required dependencies:
+
+```bash
+!pip install -r requirements.txt
+```
+
+#### 4. Run Jupyter Notebook
+Run the following command to open `EDA.ipynb` in Colab:
+
+```python
+from google.colab import drive
+drive.mount('/content/drive')
+
+%cd /content/drive/MyDrive/Boen-PS1/code
+
+import os
+os.system('jupyter nbconvert --to notebook --execute EDA.ipynb')
+
